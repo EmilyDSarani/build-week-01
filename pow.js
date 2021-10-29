@@ -1,7 +1,9 @@
-const Exponent = (number, exponent) => {
+const exponent = (num, exp) => {
 
+const total = Math.pow(num, exp);
 
+return total;
 
 }
 
-module.exports = Exponent
+module.exports = exponent
