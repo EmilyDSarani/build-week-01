@@ -7,6 +7,6 @@ describe ('Exponent', () => {
     it('should multiply number acording to exponent', async () => {
         const total = exponent(3, 2);
         
-        expect(total).toEqual(expect.any(Number));
+        expect(total).toEqual(9);
     });
 });
